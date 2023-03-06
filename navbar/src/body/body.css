@@ -1,0 +1,30 @@
+.body{
+    background-color: #8000e5;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.body-title{
+    padding-top: 17rem;
+    margin: auto;
+}
+
+.body-title h2{
+    color: white;
+    width: 70%;
+    font-size: 37px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width:550px){
+    .body-title h2{
+        font-size: 23px;
+    }
+
+    .body-title{
+        padding-top: 13rem;
+    }
+}
